@@ -7,7 +7,7 @@ function App() {
   return (
     <div
       className="min-h-screen bg-gradient-to-br from-gray-900 via-green-900 
-    to-emerald-900 items-center justify-center relative overflow-hidden"
+    to-emerald-900 items-center justify-center flex relative overflow-hidden"
     >
       <FloatingShape
         color="bg-green-500"
