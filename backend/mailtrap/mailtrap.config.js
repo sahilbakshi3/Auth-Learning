@@ -11,5 +11,3 @@ export const sender = {
   email: "hello@demomailtrap.co",
   name: "Sahil",
 };
-
-
