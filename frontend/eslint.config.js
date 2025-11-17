@@ -23,6 +23,7 @@ export default defineConfig([
       },
     },
     rules: {
+      "react/jsx-no-undef": "off",
       "react/prop-types": "off",
       "no-unused-vars": ["error", { varsIgnorePattern: "^[A-Z_]" }],
     },
