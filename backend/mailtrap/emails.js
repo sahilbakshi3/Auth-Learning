@@ -73,7 +73,7 @@ export const sendResetSuccessEmail = async (email) => {
   const recipient = [{ email }];
 
   try {
-    const response = await mailTrapClient({
+    const response = await mailTrapClient.send({
       from: sender,
       to: recipient,
       subject: "Password Reset Successfull",
